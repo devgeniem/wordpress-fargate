@@ -9,7 +9,7 @@ environments:
     provider: ecs-fargate
     loadbalancer:
       hostedzone: fargate.geniem.io
-      name: wordpress-prd
+      name: wordpress-prod
 
 # CloudFormation Template Overrides
 templates:
