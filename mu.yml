@@ -149,7 +149,7 @@ service:
   pipeline:
     source:
       provider: GitHub
-      repo: horsfieldsa/wordpress-fargate
+      repo: devgeniem/wordpress-fargate
     acceptance:
       disabled: false
       environment: acceptance
@@ -157,7 +157,7 @@ service:
       disabled: true
       environment: production
     notify:
-      - shhorsfi@amazon.com
+      - devops@geniem.com
   database:
       name: wordpress
       engine: aurora
