@@ -3,13 +3,13 @@ environments:
   - name: acceptance
     provider: ecs-fargate
     loadbalancer:
-      hostedzone: fargatetest.geniem.io
-      name: wordpress-stg
+      hostedzone: geniem.io
+      name: fargatetest
   - name: production
     provider: ecs-fargate
     loadbalancer:
-      hostedzone: fargate.geniem.io
-      name: wordpress-prod
+      hostedzone: geniem.io
+      name: fargate
 
 # CloudFormation Template Overrides
 templates:
