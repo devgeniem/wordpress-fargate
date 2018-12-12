@@ -154,7 +154,7 @@ service:
       disabled: false
       environment: acceptance
     production:
-      disabled: true
+      disabled: false
       environment: production
     notify:
       - devops@geniem.com
